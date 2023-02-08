@@ -39,7 +39,7 @@ function PostsSection() {
 
 function Presentation({ text, title }: any) {
   return (
-    <article className="flex flex-col shadow my-4">
+    <article className="flex flex-col w-full shadow my-4">
       <div className="bg-white flex flex-col justify-start p-6">
         <p className="text-3xl font-bold hover:text-gray-700 pb-4">{title}</p>
         <p className="pb-6">{text}</p>

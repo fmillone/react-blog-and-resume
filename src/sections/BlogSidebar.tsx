@@ -38,9 +38,13 @@ export function BlogSidebar() {
   );
 }
 
+function removeDuplicates(params:string[]) {
+  return Array.from(new Set(params));
+}
+
 function useArticleTags() {
   const { articles } = useContext(ArticleContext);
-  const tags = useMemo(() => articles.flatMap(it => it.tags), [articles]);
+  const tags = useMemo(() => removeDuplicates(articles.flatMap(it => it.tags)), [articles]);
 
   return tags;
 }

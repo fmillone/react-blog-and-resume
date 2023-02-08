@@ -47,7 +47,7 @@ export default function ResumePage() {
             Check my Blog
           </Link>
 
-          <div className="md:hidden">
+          <div className="md:hidden container">
             <AboutMe/>
           </div>
 
@@ -75,7 +75,7 @@ export default function ResumePage() {
         </Sidebar>
 
         <section className="w-full md:w-2/3 flex flex-col items-center px-3">
-          <div className="hidden md:flex">
+          <div className="hidden md:flex md:container">
             <AboutMe/>
           </div>
 
