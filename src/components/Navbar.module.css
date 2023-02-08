@@ -1,0 +1,15 @@
+.navbar {
+  @apply pt-5 md:flex flex-row items-center justify-between px-8 h-16 shadow bg-white;
+}
+
+.navItems {
+  @apply flex flex-row self-end space-x-5 h-10;
+}
+
+.navItem {
+  @apply text-gray-400 hover:text-gray-700 cursor-pointer font-medium tracking-wide text-sm flex items-start justify-center;
+}
+
+.selectedNavItem {
+  @apply text-gray-700 border-b-2 border-blue-600;
+}

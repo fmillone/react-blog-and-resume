@@ -1,0 +1,24 @@
+{
+    "presentation": {
+        "title": "Welcome",
+        "text": "This is a welcoming message"
+    },
+    "articles": [
+        {
+            "title": "First Article",
+            "publishDate": "Jan 30th, 2023",
+            "tags": ["Example","Markdown"],
+            "publisher": "John Doe",
+            "path": "article1",
+            "preview": "This is an example of a Markdown file.."
+        },
+        {
+            "title": "Second Article",
+            "publishDate":"Feb 30th, 2023",
+            "tags": ["Example", "Another"],
+            "publisher":"John Doe",
+            "path": "article2",
+            "preview": "This is another example of a Markdown file.."
+        }
+    ]
+}

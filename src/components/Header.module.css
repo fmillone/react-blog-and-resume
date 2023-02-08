@@ -1,0 +1,17 @@
+
+.main-title {
+    font-size: 8vw;
+    @apply font-bold text-gray-800 uppercase hover:text-gray-700
+}
+
+@screen md {
+    .main-title {
+        @apply text-5xl
+    }
+}
+
+@screen lg {
+    .main-title {
+        @apply text-6xl
+    }
+}

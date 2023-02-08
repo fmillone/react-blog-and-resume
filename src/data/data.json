@@ -1,0 +1,200 @@
+{
+  "title": "Sr. Software Developer",
+  "name": "John Doe",
+  "aboutMe": [
+    "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderitsunt hic.",
+    "Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+  ],
+  "contact": {
+    "email": "test@mail.com",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/in/",
+    "websites": [
+      {
+        "url": "http://www.conosoft.com.ar",
+        "cssIcon":"fa fa-laptop-code"
+      },
+      {
+        "name": "React Web Resume",
+        "url": "https://fmillone.github.io/react-web-resume"
+      }
+    ],
+    "twitter": "https://twitter.com/",
+    "devto": "https://dev.to/",
+    "mastodon": "https://techhub.social/"
+  },
+  "languages": [
+    {
+      "name": "English",
+      "flag": [
+        "us"
+      ],
+      "level": "Native"
+    }
+  ],
+  "certifications": [
+    {
+      "company": "Web academy",
+      "startDate": "2016",
+      "title": "Advanced Web Security",
+      "endDate": "(10 hours)",
+      "place": "by Prof. John Something",
+      "showCompressed": true
+    },
+    {
+      "company": "Web academy",
+      "startDate": "2015",
+      "title": "Introduction to Web Security",
+      "endDate": "(10 hours)",
+      "place": "by Prof. John Something",
+      "showCompressed": true
+    }
+  ],
+  "sideProjects": [
+    {
+      "title": "Personal Website",
+      "subtitle": "Done",
+      "description": ["My personal website"],
+      "stack": [
+        "React.js", "Vite", "Tailwindcss", "Typescript"
+      ],
+      "link": "https://fmillone.dev",
+      "showCompressed": true
+    }
+  ],
+  "experience": [
+    {
+      "title": "Sr Developer",
+      "startDate": "Jan 2015",
+      "endDate": "Present",
+      "stack":[
+       "MongoDB", "Typescript", "Docker", "Deno", "React.js"
+      ],
+      "description": [
+        "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderitsunt hic.",
+        "Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+      ],
+      "company": "Conosoft.com.ar",
+      "showCompressed": true
+    },
+    {
+      "title": "Web Developer",
+      "startDate": "Mar 2012",
+      "endDate": "Dec 2014",
+      "stack":[
+        "React.js", "Flutter", "Typescript", "Node.js", "Deno"
+      ],
+      "description": ["Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderitsunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."],
+      "company": "something.com",
+      "showCompressed": false
+    },
+    {
+      "title": "Graphic Designer",
+      "startDate": "Jun 2010",
+      "endDate": "Mar 2012",
+      "company": "somewhere.com",
+      "stack":[
+        "Figma", "Jira"
+      ],
+      "description": ["Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderitsunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."],
+      "showCompressed": true
+    }
+  ],
+  "education": [
+    {
+      "title": "Stuff doer",
+      "company": "Street University",
+      "place": "street",
+      "startDate": "2022",
+      "showCompressed": true
+    },
+    {
+      "title": "Master Degree",
+      "company": "Internet Business School",
+      "place": "howtocreateyourbusinessandnotfail.com",
+      "startDate": "2013",
+      "endDate": "2015",
+      "showCompressed": false
+    },
+    {
+      "title": "Bachelor Degree",
+      "startDate": "2010",
+      "endDate": "2013",
+      "company": "School of Sarasa",
+      "place": "Remote",
+      "showCompressed": true
+    }
+  ],
+  "skills": [
+    "Javascript",
+    "Typescript",
+    "Node.js",
+    "Java 8+",
+    "Spring Framework",
+    "Object oriented design",
+    "Flutter",
+    "React.js",
+    "Express.js",
+    "Angular/js",
+    "SQL",
+    "Git",
+    "Docker",
+    "K8s",
+    "Jenkins",
+    "Gradle",
+    "Configuration Management",
+    "agile practices",
+    "Testing",
+    "TDD",
+    "AWS",
+    "Jira",
+    "Functional programming",
+    "BDD",
+    "Pair programming",
+    "shell scripting",
+    "Kotlin",
+    "Go",
+    "Groovy",
+    "Python",
+    "Electron.js",
+    "Moleculer.js",
+    "Inversify.js",
+    "nest.js",
+    "Cucumber",
+    "Geb",
+    "Cassandra",
+    "Maven"
+  ],
+  "tools": [
+    {
+      "name": "Javascript",
+      "description": [
+        "Hey I can use **Markdown** here too!"
+      ]
+    },
+    {
+      "name": "React.js",
+      "description": [
+        "I like **React**"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "description":
+      [
+        "- **Communication skills.**",
+        "- **Leadership skills.**",
+        "- **Teamwork skills.**",
+        "- **Problem-solving skills.**",
+        "- **Critical thinking skills.**",
+        "- **Time management skills.**"
+      ]
+    },
+    {
+      "name": "Other",
+      "description": [
+        "**Object Oriented Design**, Testing"
+      ]
+    }
+  ]
+}

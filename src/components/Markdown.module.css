@@ -1,0 +1,21 @@
+
+
+.h1 {
+  @apply text-3xl font-bold hover:text-gray-700 pb-4
+}
+
+.h2 {
+  @apply text-2xl font-bold hover:text-gray-700 pb-4
+}
+
+.h3 {
+  @apply text-xl font-bold hover:text-gray-700 pb-4
+}
+
+.ul {
+  @apply list-disc list-inside
+}
+
+.li {
+  @apply list-item
+}
