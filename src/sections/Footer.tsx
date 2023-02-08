@@ -10,7 +10,7 @@ export function Footer() {
       <div className="w-full container mx-auto flex flex-col items-center">
         <div className="flex flex-col md:flex-row text-center md:text-left md:justify-between py-6">
           <Link to="/" className=" px-3">About Me</Link>
-          <Link to="#" target="_blank" className=" px-3">Source code  <i className="fab fa-github"></i></Link>
+          <a href="https://github.com/fmillone/react-blog-and-resume" target="_blank" className=" px-3">Source code  <i className="fab fa-github"></i></a>
           <a href={`mailto:${email}`} className=" px-3">Contact</a>
         </div>
         <Link to="/" className="pb-6"> © {name}</Link>
