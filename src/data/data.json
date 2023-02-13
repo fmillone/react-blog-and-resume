@@ -15,7 +15,6 @@
         "cssIcon":"fa fa-laptop-code"
       },
       {
-        "name": "React Web Resume",
         "url": "https://fmillone.github.io/react-web-resume"
       }
     ],
@@ -34,19 +33,20 @@
   ],
   "certifications": [
     {
-      "company": "Web academy",
-      "startDate": "2016",
+      "place": "Web academy",
+      "year": "2016",
       "title": "Advanced Web Security",
-      "endDate": "(10 hours)",
-      "place": "by Prof. John Something",
+      "duration": "(10 hours)",
+      "link": "#",
+      "instructor": "by Prof. John Something",
       "showCompressed": true
     },
     {
-      "company": "Web academy",
-      "startDate": "2015",
+      "place": "Web academy",
+      "year": "2015",
       "title": "Introduction to Web Security",
-      "endDate": "(10 hours)",
-      "place": "by Prof. John Something",
+      "duration": "(10 hours)",
+      "instructor": "by Prof. John Something",
       "showCompressed": true
     }
   ],
@@ -59,6 +59,15 @@
         "React.js", "Vite", "Tailwindcss", "Typescript"
       ],
       "link": "https://fmillone.dev",
+      "showCompressed": true
+    },
+    {
+      "title": "Other stuff",
+      "subtitle": "Done",
+      "description": ["some other stuff"],
+      "stack": [
+        "Node.js", "Typescript"
+      ],
       "showCompressed": true
     }
   ],
