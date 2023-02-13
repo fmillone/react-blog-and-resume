@@ -2,7 +2,7 @@ import { memo, useContext } from "react";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { Card } from "../components/Card";
 import { DataContext } from "../data.context";
-import type { Certification } from "../types";
+import type { Experience } from "../types";
 
 
 export default function WorkExperience() {
@@ -19,7 +19,7 @@ export default function WorkExperience() {
 const p = ({children}: any) => <p className="text-gray-700 mt-1 mb-2">{children}</p>;
 
 
-const TimelineItem = memo(({ experience }: { experience: Certification }) =>
+const TimelineItem = memo(({ experience }: { experience: Experience }) =>
   <li>
     <div className="flex flex-start items-center">
       <div className="bg-blue-600 w-4 h-8 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2"></div>

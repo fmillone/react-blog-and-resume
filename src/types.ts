@@ -20,29 +20,27 @@ export interface Presentation {
 
 // Data
 export interface Data {
-  name:           string;
   title:          string;
+  name:           string;
   aboutMe:        string[];
   contact:        Contact;
   languages:      Language[];
   certifications: Certification[];
   sideProjects:   SideProject[];
-  experience:     Certification[];
-  education:      Certification[];
+  experience:     Experience[];
+  education:      Education[];
   skills:         string[];
   tools:          Tool[];
 }
 
 export interface Certification {
-  company:        string;
-  startDate:      string;
+  place:          string;
+  year:           string;
   title:          string;
-  endDate:        string;
-  place?:         string;
+  duration:       string;
+  link?:          string;
+  instructor:     string;
   showCompressed: boolean;
-  showInPdf?:     boolean;
-  stack?:         string[];
-  description?:   string[];
 }
 
 export interface Contact {
@@ -59,6 +57,25 @@ export interface Website {
   url:             string;
   iconFromAssets?: string;
   cssIcon?:        string;
+}
+
+export interface Education {
+  title:          string;
+  company:        string;
+  place:          string;
+  startDate:      string;
+  showCompressed: boolean;
+  endDate?:       string;
+}
+
+export interface Experience {
+  title:          string;
+  startDate:      string;
+  endDate:        string;
+  stack:          string[];
+  description:    string[];
+  company:        string;
+  showCompressed: boolean;
 }
 
 export interface Language {

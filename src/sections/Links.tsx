@@ -18,14 +18,14 @@ export function Links() {
 }
 
 function WebsiteLink({ web }: { web: Website }) {
-
   const icon = useMemo(() => {
     if (web.iconFromAssets) {
       return <SvgFromAssets className="inline-block h-10 align-text-top" path={web.iconFromAssets} />
     } else {
       return <i className={web.cssIcon || "fas fa-globe-americas"}></i>;
     }
-  }, [web])
+  }, [web]);
+
   return (
     <a className="w-full tooltip" target="_blank" href={web.url}>
       {icon}
